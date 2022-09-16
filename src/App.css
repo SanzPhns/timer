@@ -1,0 +1,44 @@
+body{
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper{
+  background-color: rgb(224, 228, 224);
+  width: 250px;
+  height: 180px;
+  margin: 0 auto;
+  border: 2px solid black;
+  margin-top: 50px;
+  border-radius: 3px;
+}
+.displayTime{
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  width: 55%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.controlButtons{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+button{
+  border-radius: 5px;
+  padding: 5px;
+  width: 70px;
+}
+.startButton{
+  background-color: rgb(99, 228, 99);
+  color: white;
+}
+.stopButton{
+  background-color: rgb(221, 119, 119);
+  color: white;
+}
